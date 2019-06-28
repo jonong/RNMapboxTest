@@ -1,0 +1,31 @@
+{
+  "name": "MapboxTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "flow": "flow",
+    "flow-stop": "flow stop",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-mapbox-gl/maps": "^7.0.0-rc3",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^10.0.2",
+    "react": "16.8.3",
+    "react-native": "0.59.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/runtime": "^7.4.5",
+    "@babel/preset-flow": "^7.0.0",
+    "babel-jest": "^24.8.0",
+    "flow-bin": "0.92.0",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
